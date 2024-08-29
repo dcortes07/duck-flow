@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "duck-flow"
+version = "0.1.0"
+description = ""
+authors = ["Diana Cortes <57280974+dcortes07@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.3.2"
+ruff = "^0.6.3"
+
+[tool.poetry.group.dev.dependencies]
+duckdb = "^1.0.0"
+google-cloud-bigquery = "^3.25.0"
+google-auth = "^2.34.0"
+google-cloud-bigquery-storage = "^2.25.0"
+pyarrow = "^17.0.0"
+pandas = "^2.2.2"
+fire = "^0.6.0"
+loguru = "^0.7.2"
+pydantic = "^2.8.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
